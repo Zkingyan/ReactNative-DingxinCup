@@ -1,3 +1,9 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -6,12 +12,12 @@ import {
   View
 } from 'react-native';
 
-export default class origin extends Component {
+export default class Winnerslist extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to 签到!
+          Welcome to 获奖名单!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
@@ -44,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('origin', () => origin);
+AppRegistry.registerComponent('Winnerslist', () => Winnerslist);

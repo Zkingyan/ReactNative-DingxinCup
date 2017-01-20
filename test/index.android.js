@@ -1,5 +1,5 @@
 /**
- * 商城主框架界面
+ * 主框架界面
  */
 'use strict';
 import React, {Component} from 'react';

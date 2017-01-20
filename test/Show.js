@@ -8,6 +8,8 @@ import {
 
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import SlideBar from './SlideBar';
+import Shortlisted from './Shortlisted';
+import Winnerslist from './Winnerslist'
 
 class Show extends Component {
 
@@ -28,11 +30,11 @@ class Show extends Component {
 				tabBarPosition='top'>
 
 				<View style={styles.content} tabLabel='key1'>
-					<Text>#1</Text>
+					 <Shortlisted></Shortlisted>  
 				</View>
 
 				<View style={styles.content} tabLabel='key2'>
-					<Text>#2</Text>
+					<Winnerslist></Winnerslist>
 				</View>
 			</ScrollableTabView>
 		);
